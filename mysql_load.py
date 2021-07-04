@@ -11,7 +11,7 @@ mycursor = mydb.cursor()
 
 sql = "INSERT INTO student_info (username, password, firstname, email, dob, zip) VALUES (%s, %s)"
 val = [
-  ("LN1J", "Xmmrtuv1877", "Larry", "larry1zp@yahoo.com", "8/16/1993", "1991"),
+  ("LN1J", "Xmmrtuv1877", "Larry", "larry1zp@yahoo.com", "1993-08-16", "1991"),
   ("MKT8", "Jujjy67i", "Michael", "Mzoo18@aol.com", "1998-09-09", "1909"),
   ("F9OP", "Ki78unma", "Frank", "Ff8900@gmail.com", "1991-10-4", "8818"),
   ("RIT7", "TxzY1ull", "Rachel", "RachelRay90@yahoo.com", "1990-09-19", "0992"),
