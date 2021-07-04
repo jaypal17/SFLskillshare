@@ -19,12 +19,6 @@ try:
     record = cursor.fetchall()
 
     for row in record:
-        print("username = ", row[0], )
-        print("password = ", row[1])
-        print("firstname = ", row[2])
-        print("email = ", row[3])
-        print("dob = ", row[4])
-        print("zip = ", row[5])
         row.append(all_data)
 
 
