@@ -17,14 +17,14 @@ try:
     cursor.execute(sql_select_query)
     # fetch result
     record = cursor.fetchall()
-
+    # add all data from mysql and store in dict
     for row in record:
         row.append(all_data)
 
-
+# Error result
 except mysql.connector.Error as error:
     print("Failed to get record from MySQL table: {}".format(error))
-
+# Close connection if connection is open
 finally:
     if connection.is_connected():
         cursor.close()
@@ -45,6 +45,6 @@ try:
     loaddata = all_data
 
     x = collection.insert_one(loaddata)
-
+# Error result
 except pymongo.connector.Error as error:
     print("Failed to insert data")
