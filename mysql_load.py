@@ -9,7 +9,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-sql = "INSERT INTO student_info (username, password, firstname, email, dob, zip)
+sql = "INSERT INTO student_info (username, password, firstname, email, dob, zip)"
 VALUES (%s, %s)"
 val = ("LN1J", "Xmmrtuv1877", "Larry", "larry1zp@yahoo.com", "8/16/1993", "1991")
 mycursor.execute(sql, val)
