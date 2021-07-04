@@ -9,7 +9,7 @@ try:
     mysqlconn = mysql.connector.connect(
         host="localhost",
         user="dbuser1",
-        password="Blue1234",
+        password="*****",
         database="students")
 
     sql_select_query = "select * from student_info"
