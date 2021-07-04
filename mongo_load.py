@@ -17,6 +17,6 @@ loaddata = [{"username": "KUI8", "password": "Hinll66", "firstname": "Kevin", "e
             {"username": "WVB3", "password": "Zinh16", "firstname": "Wendy", "email": "Wendy.Smith@gmail.com", "dob": "6/22/2002", "zip": "6166"},
             {"username": "HBK9", "password": "WasL45", "firstname": "Harvey", "email": "Hball8@yahoo.com", "dob": "3/30/2000", "zip": "8181"},
             {"username": "ENT1", "password": "LiCnk88", "firstname": "Edward", "email": "em1888@gmail.com", "dob": "4/18/2001", "zip": "3034"},
-            {"username": "Z6GH", "password": "MooZX98", "firstname": "Zachary", "email": "ZJune17@yahoo.com", "dob": "6/17/2002", "zip": "5059"},           
+            {"username": "Z6GH", "password": "MooZX98", "firstname": "Zachary", "email": "ZJune17@yahoo.com", "dob": "6/17/2002", "zip": "5059"}]           
 
 x = collection.insert_many(loaddata)
