@@ -19,4 +19,4 @@ loaddata = [{"username": "KUI8", "password": "Hinll66", "firstname": "Kevin", "e
             {"username": "ENT1", "password": "LiCnk88", "firstname": "Edward", "email": "em1888@gmail.com", "dob": "4/18/2001", "zip": "3034"},
             {"username": "Z6GH", "password": "MooZX98", "firstname": "Zachary", "email": "ZJune17@yahoo.com", "dob": "6/17/2002", "zip": "5059"},           
 
-x = collection.insert_one(loaddata)
+x = collection.insert_many(loaddata)
