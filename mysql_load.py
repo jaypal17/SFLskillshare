@@ -22,7 +22,7 @@ val = [
   ("JI7D", "Vuvv12", "James", "JamesJames8@gmail.com", "1992-06-09", "8776"),
   ("TWq2", "Bnev18", "Tyler", "Tyty8081@yahoo.com", "1993-05-14", "2180")
 ]
-mycursor.execute(sql, val)
+mycursor.executemany(sql, val)
 
 mydb.commit()
 
